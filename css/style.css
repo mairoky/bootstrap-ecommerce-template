@@ -1,0 +1,24 @@
+:root {
+    --theme-transition: all 0.3s ease-in-out;
+}
+
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+form .search-bar {
+    border-radius: 50px;
+    transition: var(--theme-transition);
+}
+
+form .search-bar:focus {
+    border-color: #ff2d81;
+    box-shadow: none;
+}
+
+form .search-btn {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    color: #727B82;
+}
