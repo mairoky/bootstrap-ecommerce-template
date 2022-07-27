@@ -6,6 +6,16 @@ body {
     font-family: 'Fira Sans', sans-serif;
 }
 
+.btn-general {
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 25px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+/* Header Start */
 form .search-bar {
     border-radius: 50px;
     transition: var(--theme-transition);
@@ -22,3 +32,34 @@ form .search-btn {
     bottom: 0;
     color: #727B82;
 }
+
+/* Header End */
+/* Banner Start */
+.banner .bg-banner {
+    background-color: #FEEAE9;
+}
+
+.banner-info h2 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 84px;
+    color: #1f1f1f;
+}
+
+.banner-info p {
+    line-height: 26px;
+    color: #4E4E4E;
+}
+
+.banner-info h3 {
+    font-weight: 500;
+    font-size: 41px;
+    line-height: 62px;
+    color: #FF136F;
+}
+
+.banner-info .banner-btn {
+    background-color: #FF136F;
+}
+
+/* Banner End */
